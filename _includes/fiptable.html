@@ -1,0 +1,26 @@
+<style type="text/css">
+  .BIPtable .title {
+    width: 67%;
+  }
+
+  .BIPtable .author {
+    width: 33%;
+  }
+</style>
+<h1>BIPs</h1>
+    <table class="BIPtable">
+      <thead>
+          <tr><th class="BIPnum">Number</th><th class="title">Title</th><th class="author">Author</th><th class="status">Status</th></tr>
+      </thead>
+      {% assign BIPslist = site.pages | where: "layout","BIP" %}
+      {% for BIP in BIPslist reversed %}
+        <tr>
+          <td class="BIPnum"><a href="{{BIP.url|relative_url}}">{{BIP.BIP|xml_escape}}</a></td>
+          <td class="title">{{BIP.title|xml_escape}}</td>
+          <td class="author">{% include authorlist.html authors=BIP.author %}</td>
+          <td class="status">{{BIP.status}}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+

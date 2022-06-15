@@ -1,0 +1,6 @@
+navigation_pages:
+  - mission.md
+  - proposing.md
+  - BIPs.html
+
+skin: default

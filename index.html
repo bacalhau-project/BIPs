@@ -1,0 +1,15 @@
+---
+layout: home
+title: Bacalhau Improvement Proposals
+---
+
+<ul>
+<li>Read up on the process for <a href="proposing/">Proposing new BIPs</a></li>
+<li>Jump to <a href="#bips">BIPs</a></li>
+</ul>
+
+{% capture readme_include %}{% include_relative README.md %}{% endcapture %}
+{{ readme_include | markdownify }}
+
+<a id="BIPs"></a>
+{% include biptable.html %}
