@@ -41,4 +41,4 @@ This improvement protocol helps achieve that objective for all members of the Ba
 |BIP #   | Title  | Author  | Status  |
 |---|---|---|---|
 |[0001](https://github.com/Bacalhau-project/BIPs/blob/master/BIPS/BIP-0001.md)   | BIP Purpose and Guidelines  | @aronchick  | Active  |
-|[0001](https://github.com/Bacalhau-project/BIPs/blob/master/BIPS/BIP-0002.md)   | CLI and API Design   | @aronchick  | Active  |
+|[0002](https://github.com/Bacalhau-project/BIPs/blob/master/BIPS/BIP-0002.md)   | CLI and API Design   | @aronchick  | Active  |
